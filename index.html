@@ -455,12 +455,12 @@
                 <div class="example-tags">
                     <span class="example-tag" onclick="setTopic('mùa xuân')">Mùa xuân</span>
                     <span class="example-tag" onclick="setTopic('tình yêu')">Tình yêu</span>
-                    <span class="example-tag" onclick="setTopic('quê hương')">Quê hương</span>
+                    <span class="example-tag" onclick="setTopic('đất nước')">Đất nước</span>
                     <span class="example-tag" onclick="setTopic('mẹ')">Mẹ</span>
                     <span class="example-tag" onclick="setTopic('biển')">Biển</span>
                     <span class="example-tag" onclick="setTopic('núi rừng')">Núi rừng</span>
                     <span class="example-tag" onclick="setTopic('tuổi thơ')">Tuổi thơ</span>
-                    <span class="example-tag" onclick="setTopic('mưa')">Mưa</span>
+                    <span class="example-tag" onclick="setTopic('mùa thu')">Mùa thu</span>
                 </div>
             </div>
         </div>
@@ -542,7 +542,7 @@
     }
 
     async function callPoemAPI(topic) {
-        const response = await fetch("https://eedf8c362f3a.ngrok-free.app/generate_poem", {
+        const response = await fetch("https://5feb2f29793f.ngrok-free.app/generate_poem", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
