@@ -1,16 +1,17 @@
-from fastapi import FastAPI, Request
+from unsloth import FastLanguageModel
+from fastapi import FastAPI
 from pydantic import BaseModel
 from transformers import AutoTokenizer
-from unsloth import FastLanguageModel
 import torch
 import uvicorn
+
 
 # Cấu hình
 MODEL_PATH = "vinallama_poem_model"
 MAX_SEQ_LENGTH = 512
 
 # Load tokenizer
-tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH, use_fast=True)
+tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 
 # Load model
 model, _ = FastLanguageModel.from_pretrained(
@@ -31,7 +32,7 @@ app = FastAPI()
 class Prompt(BaseModel):
     title: str
 
-@app.get("/generate")
+@app.post("/generate")
 def generate_poem(prompt: Prompt):
     system_prompt = """Bạn là một AI thi sĩ chuyên sáng tác thơ lục bát bằng tiếng Việt.
 Hãy thể hiện cảm xúc tinh tế, sử dụng ngôn từ đẹp, và tuân thủ nghiêm ngặt các quy tắc sau:
@@ -57,9 +58,9 @@ Hãy thể hiện cảm xúc tinh tế, sử dụng ngôn từ đẹp, và tuân
     result = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
     # Tách phần thơ
-    generated_poem = result.split("assistant<|end_header_id|>")[-1].strip()
+    generated_poem = result.split("assistant")[-1].strip()
 
     return {"poem": generated_poem}
 
 if __name__ == "__main__":
-    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=False)
