@@ -13,7 +13,7 @@ Mô hình sau huấn luyện có khả năng tiếp tục viết các đoạn th
 
 ## Demo
 
-<img src="img/demo.gif" alt="demo poem generation" width="600"/>
+<img src="demo/img.gif" alt="demo poem generation" width="600"/>
 
 ---
 
