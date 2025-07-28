@@ -1,13 +1,13 @@
-# Poem Generator — Sinh Thơ Lục Bát với VinaLLaMA
+# Poem Generator — Vietnamese "Luc Bat" Poetry with VinaLLaMA
 
-Đây là dự án sử dụng AI để tạo ra các bài thơ lục bát tiếng Việt.  
-Project sử dụng mô hình ngôn ngữ lớn **VinaLLaMA** và được **fine-tune** trên tập dữ liệu thơ lục bát.
+This project uses AI to generate Vietnamese **Luc Bat** poems.  
+It is built on the **VinaLLaMA** large language model, fine-tuned on a dataset of traditional Vietnamese Luc Bat poetry.
 
 ---
 
 ## Demo
 
-**Xem thêm demo [tại đây](https://www.youtube.com/watch?v=x4v4GgdI9Fs)**
+**Watch the demo [here](https://www.youtube.com/watch?v=x4v4GgdI9Fs)**
 
 <p align="center">
   <img src="demo/img.png" alt="Poem Generation Screenshot" width="95%">
@@ -23,23 +23,23 @@ Project sử dụng mô hình ngôn ngữ lớn **VinaLLaMA** và được **fin
 
 ## Dataset & Training
 
-Toàn bộ dữ liệu được thu thập bằng **Selenium** từ các trang web như **thivien.net**, **lucbat.com**, cũng như một số bộ **public dataset** sẵn có.
+The dataset was collected using **Selenium** from websites such as **thivien.net**, **lucbat.com**, and several available **public datasets**.
 
-Dữ liệu sau khi thu thập sẽ được **tiền xử lý**, lọc nhiễu và chuẩn hóa theo cấu trúc thơ lục bát. Sau đó, mô hình **VinaLLaMA** được fine-tune để học cách tiếp nối thơ một cách tự nhiên, đúng nhịp và giữ được chất thơ truyền thống.
+After collection, the data was **preprocessed**, cleaned, and normalized to follow the Luc Bat structure. The **VinaLLaMA** model was then fine-tuned to learn how to naturally extend Luc Bat poems while maintaining rhythm, rhyme, and poetic style.
 
-Mô hình sau huấn luyện có khả năng tiếp tục viết các đoạn thơ lục bát dựa trên một dòng đề bài đầu vào, duy trì vần điệu và ngữ nghĩa phù hợp.
+The trained model can generate Luc Bat verses based on a single input line, preserving both rhyme and meaning.
 
 ---
 
 ### Dataset
 
-Truy cập dataset [tại đây](https://drive.google.com/file/d/1w5XEUwTi8lCB9eFM_DnSIJ8VaMMrsfi3/view)
+Access the dataset [here](https://drive.google.com/file/d/1w5XEUwTi8lCB9eFM_DnSIJ8VaMMrsfi3/view)
 
 ---
 
 ## License
 
-Dự án này là mã nguồn mở và được phát hành theo giấy phép MIT.
+This project is open source and released under the MIT License.
 
 ---
 
