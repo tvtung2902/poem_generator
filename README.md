@@ -33,7 +33,7 @@ Mô hình sau huấn luyện có khả năng tiếp tục viết các đoạn th
 
 ### Dataset
 
-Bạn có thể truy cập dataset [tại đây](https://drive.google.com/file/d/1w5XEUwTi8lCB9eFM_DnSIJ8VaMMrsfi3/view)
+Truy cập dataset [tại đây](https://drive.google.com/file/d/1w5XEUwTi8lCB9eFM_DnSIJ8VaMMrsfi3/view)
 
 ---
 
