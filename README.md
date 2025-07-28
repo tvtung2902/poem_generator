@@ -12,12 +12,12 @@ Project sử dụng mô hình ngôn ngữ lớn **VinaLLaMA** và được **fin
 <p align="center">
   <img src="demo/img.png" alt="Poem Generation Screenshot" width="95%">
 </p>
-<p align="center"><em>Ảnh minh họa giao diện sinh thơ</em></p>
+<p align="center"><em>Demo poem generation 1</em></p>
 
 <p align="center">
   <img src="demo/img.gif" alt="Poem Generation Animated" width="95%">
 </p>
-<p align="center"><em>Minh họa quá trình sinh thơ</em></p>
+<p align="center"><em>Demo poem generation 2</em></p>
 
 ---
 
