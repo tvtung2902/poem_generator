@@ -7,7 +7,7 @@ It is built on the **VinaLLaMA** large language model, fine-tuned on a dataset o
 
 ## Demo
 
-**Watch the demo [here](https://www.youtube.com/watch?v=x4v4GgdI9Fs)**
+**Watch the demo [here](https://drive.google.com/file/d/16PsAXB7GeTtsoAkm2NiYvVpbaEv6psKX/view?usp=drive_link)**
 
 <p align="center">
   <img src="demo/img.png" alt="Poem Generation Screenshot" width="95%">
