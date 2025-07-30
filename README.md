@@ -10,7 +10,7 @@ It is built on the **VinaLLaMA** large language model, fine-tuned on a dataset o
 **Watch the demo [here](https://drive.google.com/file/d/1YBMI3m_fur111kii1KWF2kPv7Pyis-mk/view?usp=sharing)**
 
 <p align="center">
-  <img src="demo/img.png" alt="Poem Generation Screenshot" width="95%">
+  <img src="demo/image.png" alt="Poem Generation Screenshot" width="95%">
 </p>
 <p align="center"><em>Demo poem generator</em></p>
 
