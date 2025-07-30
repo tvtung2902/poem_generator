@@ -7,17 +7,12 @@ It is built on the **VinaLLaMA** large language model, fine-tuned on a dataset o
 
 ## Demo
 
-**Watch the demo [here](https://drive.google.com/file/d/16PsAXB7GeTtsoAkm2NiYvVpbaEv6psKX/view?usp=drive_link)**
+**Watch the demo [here](https://drive.google.com/file/d/1YBMI3m_fur111kii1KWF2kPv7Pyis-mk/view?usp=sharing)**
 
 <p align="center">
   <img src="demo/img.png" alt="Poem Generation Screenshot" width="95%">
 </p>
-<p align="center"><em>Demo poem generation 1</em></p>
-
-<p align="center">
-  <img src="demo/img.gif" alt="Poem Generation Animated" width="95%">
-</p>
-<p align="center"><em>Demo poem generation 2</em></p>
+<p align="center"><em>Demo poem generator</em></p>
 
 ---
 
