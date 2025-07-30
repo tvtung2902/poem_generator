@@ -418,7 +418,7 @@
 <!-- Header -->
 <header class="header">
     <div class="nav-container">
-        <a href="#" class="logo">Tạo Thơ</a>
+        <a href="#" class="logo">Poem Generator</a>
         <nav>
             <ul class="nav-menu">
                 <li><a href="#home">Trang chủ</a></li>
@@ -441,8 +441,6 @@
 <!-- Main Content -->
 <main class="main-content">
     <section class="poem-generator" id="generator">
-        <h2 class="section-title">Tạo Thơ Từ Cảm Hứng</h2>
-
         <div class="input-section">
             <div class="input-group">
                 <input type="text" id="poemTopic"
@@ -477,7 +475,7 @@
             <div class="poem-text" id="poemResult">
                 Hãy nhập đề bài và nhấn "Sinh Thơ" để bắt đầu sáng tác...
 
-                Tại đây, AI sẽ kết nối với server để tạo ra những vần thơ đẹp đẽ dựa trên chủ đề bạn chọn.
+                Tại đây, AI sẽ kết nối với server để tạo ra những bài thơ dựa trên chủ đề bạn cung cấp.
             </div>
         </div>
     </section>
@@ -542,7 +540,7 @@
     }
 
     async function callPoemAPI(topic) {
-        const response = await fetch("https://5feb2f29793f.ngrok-free.app/generate_poem", {
+        const response = await fetch("https://6564556f98c2.ngrok-free.app/generate_poem", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
